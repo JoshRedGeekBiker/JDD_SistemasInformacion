@@ -8,13 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Agenda
+public partial class frmContacto : Form
 {
-    public partial class Form1 : Form
+    public frmContacto()
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

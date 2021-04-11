@@ -8,6 +8,11 @@ namespace Agenda
 {
     static class Program
     {
+        //Vistas
+        static frmPrincipal VistaPrincipal;
+        static frmCargando VistaCargando;
+
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -16,7 +21,28 @@ namespace Agenda
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            VistaPrincipal = new frmPrincipal();
+
+            Cargando();
+            Application.Run(new frmPrincipal());
+            
+            
         }
+
+        
+
+        /// <summary>
+        /// Se encarga de mostrar un logo al inicio
+        /// </summary>
+        private static void Cargando()
+        {
+            VistaCargando = new frmCargando();
+            VistaCargando.Show();
+        }
+
+      
     }
+
+    
 }

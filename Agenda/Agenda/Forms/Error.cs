@@ -8,13 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Agenda
+public partial class Error : Form
 {
-    public partial class Edit : Form
+    public Error()
     {
-        public Edit()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
