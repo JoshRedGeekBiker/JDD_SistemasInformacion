@@ -13,6 +13,7 @@ namespace Agenda
         static frmCargando VistaCargando;
 
 
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -24,9 +25,9 @@ namespace Agenda
 
             VistaPrincipal = new frmPrincipal();
 
+
             Cargando();
             Application.Run(new frmPrincipal());
-            
             
         }
 
@@ -39,10 +40,8 @@ namespace Agenda
         {
             VistaCargando = new frmCargando();
             VistaCargando.Show();
-        }
+        } 
 
-      
+        private static List<>
     }
-
-    
 }

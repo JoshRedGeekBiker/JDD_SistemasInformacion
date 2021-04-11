@@ -92,6 +92,7 @@
     <Compile Include="Forms\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="iBD.cs" />
     <Compile Include="personas.cs">
       <DependentUpon>ContactoModel.tt</DependentUpon>
     </Compile>
